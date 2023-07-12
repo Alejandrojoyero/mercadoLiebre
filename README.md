@@ -7,4 +7,5 @@
 #### Este proyecto ha sido un desafío emocionante que me ha permitido aplicar mis conocimientos en desarrollo web y aprender nuevas tecnologías. He utilizado herramientas como HTML, CSS y JavaScript para crear la interfaz y la funcionalidad de la simulación, junto con bases de datos y lenguajes de programación del lado del servidor para administrar la información y las transacciones.
 #### Espero que esta simulación de la página de Mercado Libre sea una experiencia divertida, y que les ayude a comprender mejor el funcionamiento de una plataforma de comercio electrónico. ¡Disfruten explorando y comprando en este mundo virtual!"
 
-[rama-estructura](https://github.com/Alejandrojoyero/mercadoLiebre/tree/Estructura)
+[rama-estructura](https://github.com/Alejandrojoyero/mercadoLiebre/tree/AleSalinas-EstructuraSitioWeb)
+[rama-style](https://github.com/Alejandrojoyero/mercadoLiebre/tree/css-estilos)
