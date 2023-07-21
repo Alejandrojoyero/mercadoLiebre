@@ -11,9 +11,7 @@
 
 .home__header__img--logo {
     width: 100%;
-    padding: 0;
-    margin-top: 15px;
-    margin-left: 15px;
+    
 }
 
 .home__header__input {
@@ -23,7 +21,7 @@
 
 .home__header__search {
     padding: 0;
-    margin-left: 20px;
+    margin-left: 0;
 }
 
 .home__header__hand-holding {
@@ -37,12 +35,14 @@
     font-size: 12px;   
     display:inline-block;
     color: var(--colorNegro);
+    display: none;
 }
 
 .home__header__nav__a-menu-2 {
     font-size: 12px;
     display:inline-block;
     color: var(--colorNegro);
+    display: none;
 }
 
 .home__header__nav__ul--menu-2 {
@@ -75,7 +75,6 @@
      /* MAIN */
 
      .home__main {
-        
         margin-left: 16px;
         margin-right: 16px;
      }
@@ -105,17 +104,24 @@
     box-sizing: border-box;
     width: 100%;
     border-top: solid var(--colorGrisClaro) 1px;
-    border-bottom: solid var(--colorGrisClaro) 10px;
+    border-bottom: solid var(--colorGrisClaro) 15px;
     background-color: var(--colorBlanco);
-    padding-bottom: 15px;
+    padding: 15px;
 }
 
-.home__main__div__product--ultimas-vistas-description-h4 {
-    padding-bottom: 15px;
+.envio {
+    margin-left: 5px;
+    margin-bottom: 0;
+    padding-right: 20px;
+    color: var(--colorVerde);
     font-size: 18px;
-    width: 100%;
-    height: 100%;
+    width: 40px;
+    height: 40px;
+    box-sizing: content-box;
     display: block;
+    padding: 0;
+    border-radius: 50%;
+    border: 1px solid var(--colorVerde);
 }
 
 .home__main__section__ul__li__h2-ofertas {
@@ -125,6 +131,8 @@
     width: 100%;
     height: 100%;
     display: block;
+    background-color: var(--colorGrisClaro);
+    color: var(--colorGrisOscuro);
 }
 
 .home__main__div__product--ofertas {
@@ -140,7 +148,7 @@
 }
 
 .home__main__div__product--ultimas-vistas-descuento-h4 {
-    text-align: center;
+    color: var(--colorVerde);
     font-size: 16px;
     width: 100%;
     height: 100%;
@@ -148,15 +156,17 @@
 }
 
 .home__main__div__product--ultimas-vistas-description-h4 {
-    text-align: center;
+    padding-top: 15px;
     font-size: 16px;
     width: 100%;
     height: 100%;
     display: block;
+    color: var(--colorGrisOscuro);
+    display: none;
 }
 
 .home__main__div__image-ofertas-precio {
-    text-align: center;
+    
     font-size: 18px;
     width: 100%;
     height: 100%;
@@ -164,21 +174,26 @@
 }
 
 .home__main__div__image-ofertas-descuento {
-    text-align: center;
+    
     font-size: 16px;
     width: 100%;
     height: 100%;
     display: block;
+    color: var(--colorVerde);
 }
 
 .home__main__div__image-ofertas-description {
-    text-align: center;
+    
+    padding-top: 15px;
     font-size: 16px;
     width: 100%;
     height: 100%;
     display: block;
-    margin-bottom: 30px;
+    color: var(--colorGrisOscuro);
+    display: none;
 }
+
+      /* FOOTER */
 
 .home__footer__section__article__ul__li__p {
     text-align: center;
@@ -187,7 +202,9 @@
     height: 100%;
     display: block;
     color: var(--colorNegro);
-    
+    padding: 0;
+    margin: 0;
+}
 }
 
 .home__footer__p {
@@ -196,7 +213,6 @@
     width: 100%;
     height: 100%;
     display: block;
-    margin-bottom: 5px;
     color: var(--colorGrisOscuro);
     margin-bottom: 30px;
 }
@@ -206,5 +222,5 @@
     font-size: 2em;
     color: var(--colorCeleste);
     margin-bottom: 10px;
-}
+    margin-top: 10px;
 }
