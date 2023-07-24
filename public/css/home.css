@@ -66,16 +66,28 @@
         text-align: center;
     }
 
-    .home__header__div--banner {
-        display: block;
+    .home__header__div--banner-caja01 {
         width: 100%;
     }
+
+    .home__header__div--banner-caja02 {
+        width: 100%;
+        display: none;
+    }
+
+    .home__header__div--banner-caja03 {
+        width: 100%;
+        display: none;
+    }
+    
+
 
     /* MAIN */
 
     .home__main {
         margin-left: 16px;
         margin-right: 16px;
+        margin-bottom: 20px;
     }
 
     .home__main__section__ul__article__p__h2-title {
@@ -108,8 +120,8 @@
         box-sizing: border-box;
         width: 100%;
         border-top: solid var(--colorGrisClaro) 1px;
-
         background-color: var(--colorBlanco);
+        padding-top: 15px;
     }
 
     .envio {
@@ -128,7 +140,6 @@
     }
 
     .home__main__section__ul__li__h2-ofertas {
-
         font-size: 24px;
         width: 100%;
         height: 100%;
@@ -145,7 +156,6 @@
     }
 
     .home__main__div__product--ultimas-vistas-precio-h4 {
-
         font-size: 18px;
         width: 100%;
         height: 100%;
@@ -171,7 +181,6 @@
     }
 
     .home__main__div__image-ofertas-precio {
-
         font-size: 18px;
         width: 100%;
         height: 100%;
@@ -219,7 +228,7 @@
     height: 100%;
     display: block;
     color: var(--colorGrisOscuro);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
    }
 
   .home__footer__icon {
@@ -248,7 +257,6 @@
     .home__header__input {
         padding: 0;
         margin-left: 20px;
-
     }
 
     .home__header__li__a--menu-1 {
@@ -275,20 +283,30 @@
         display: none;
     }
 
-    .home__header__div--banner {
+    .home__header__div--banner-caja01 {
         display: block;
         width: 100%;
+        display: none;
 
+    }
+
+    .home__header__div--banner-caja02 {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .home__header__div--banner-caja03 {
+        width: 100%;
+        display: none;
     }
 
     /* MAIN */
 
 
     .home__main__section__ul__article__p__h2-title {
-
         width: 100%;
         text-align: initial;
-
     }
 
     .home__main__div__product--ultimas-vistas {
@@ -312,6 +330,21 @@
 
 @media (min-width:769px) {
 
+           /* HEADER */
 
-    
+
+    .home__header__div--banner-caja01 {
+        width: 100%;
+        display: none;
+    }
+
+    .home__header__div--banner-caja02 {
+        width: 100%;
+        display: none;
+    }
+
+    .home__header__div--banner-caja03 {
+        width: 100%;
+        display: block;
+    }
 }
