@@ -124,6 +124,7 @@
         background-color: var(--colorBlanco);
         padding-top: 15px;
         display: flex;
+        flex-wrap: wrap;
         position: relative;
     }
 
@@ -165,7 +166,6 @@
         width: 30%;
         height: 100%;
         display: block;
-        
     }
 
     .home__main__div__product--ultimas-vistas-descuento-h4 {
@@ -183,7 +183,7 @@
         height: 100%;
         display: block;
         color: var(--colorGrisOscuro);
-        display: none;
+        
     }
 
     .home__main__div__image-ofertas-precio {
@@ -196,7 +196,7 @@
     .home__main__div__image-ofertas-descuento {
 
         font-size: 16px;
-        width: 100%;
+        width: 70%;
         height: 100%;
         display: block;
         color: var(--colorVerde);
@@ -210,7 +210,6 @@
         height: 100%;
         display: block;
         color: var(--colorGrisOscuro);
-        display: none;
     }
 
     /* FOOTER */
