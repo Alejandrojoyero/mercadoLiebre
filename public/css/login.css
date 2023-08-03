@@ -16,6 +16,11 @@
         color: var(--colorGrisOscuro)
     }
 
+    .validacion {
+        color: crimson;
+        font-size: 10px;
+    }
+
     .button-enviar {
         display: flex;
         justify-content: flex-end;
@@ -212,6 +217,11 @@
         .contraseña {
             margin: 0;
             padding: 0;
+        }
+
+        .validacion {
+            color: crimson;
+            font-size: 12px;
         }
 
         .button-box {
