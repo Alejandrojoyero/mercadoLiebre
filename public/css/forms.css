@@ -1,0 +1,14 @@
+.form__control--input {
+    width: 100%;
+    border: 1px solid lightblue;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.form__control--input:focus {
+    box-shadow: 0px 0px 5px;
+    outline: none;
+
+}

@@ -24,9 +24,14 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+    .home__header__div-logo a {
+        margin: 0;
+        width: 130px;
+    }
     
     .home__header__img--logo {
-        width: 50%;
+        width: 90%;
         margin-top: 10px;
         margin-right: 5px;
     }
@@ -48,7 +53,7 @@
         padding-top: 3px;
         margin-left: 0;
         position: absolute;
-        right: 35px;
+        right: 40px;
         background: none;
         border: none;
         color: var(--colorGrisOscuro)
@@ -284,6 +289,13 @@
     margin-bottom: 0px;
     margin-top: 10px;
    }
+
+   .home__footer__icon3 {
+    text-align: center;
+    font-size: 1.3em;
+    color: var(--colorCeleste);
+    
+}
 }
 
 @media (min-width:361px) {
@@ -306,16 +318,21 @@
         
     }
 
+    .home__header__div-logo a {
+        margin: 0;
+        width: 50px;
+    }
+
     .home__header__img--logo {
-        width: 30%;
+        width: 190%;
         padding-top: 0px;
 
     }
 
     input {
         padding: 0;
-        margin-left: 5px;
-        width: 8rem;
+        margin-left: 55px;
+        width: 7rem;
     }
 
     .home__header__search {
@@ -324,7 +341,7 @@
         padding-top: 3px;
         margin-left: 0;
         position: absolute;
-        right: 100px;
+        right: 110px;
         font-size: 12px;
     }
 
@@ -500,6 +517,15 @@
         width: 100%;
     }
 
+    .home__footer__icon3 {
+        text-align: center;
+        font-size: 1.3em;
+        color: var(--colorCeleste);
+        margin-bottom: 0px;
+        margin-top: 10px;
+       }
+}
+
 }
 
 @media (min-width:769px) {
@@ -510,28 +536,33 @@
             width: 100%;
             margin-left: 16px;
         } 
+
+        .home__header {
+            padding-left: 25px;
+            padding-right: 25px;
+        }
            
            .home__header__img--logo {
-            width: 35%;
+            width: 335%;
             padding-top: 0px;
     
         }
     
         input {
             padding-left: 10PX;
-            margin-left: 5px;
-            width: 11rem;
-            height: 30PX;
+            margin-left: 155px;
+            width: 12rem;
+            height: 40PX;
         }
     
         .home__header__search {
             border: none;
             background: none;
-            padding-top: 7px;
+            padding-top: 9px;
             margin-left: 0;
             position: absolute;
-            right: 290px;
-            font-size: 15px;
+            right: 310px;
+            font-size: 20px;
         }
     
         .home__header__hand-holding {

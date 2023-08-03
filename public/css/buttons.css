@@ -1,0 +1,14 @@
+.button__primary {
+    padding: 8px 10px;
+    color: var(--colorBlanco);
+    background-color: var(--colorCeleste);
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+}
+
+.button__primary:hover{
+background-color: white;
+color: blue;
+box-shadow: 0px 0px 10px ;
+}

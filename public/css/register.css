@@ -1,0 +1,68 @@
+@media (min-width:320px) {
+
+    .register__main {
+        padding: 10px;
+        background-color: var(--colorGrisClaro);
+    }
+
+    .h3__title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.perfil-usuario {
+    padding: 10px 0;
+}
+
+.foto-usuario {
+    padding: 10px 0;
+}
+
+.contraseña {
+    padding: 5px 0;
+}
+
+.confirmar-contraseña {
+    padding: 5px 0;
+}
+
+.button__caja {
+    display: flex;
+    justify-content: space-around;
+}
+
+}
+
+@media (min-width:361px) {
+    .form__control--input {
+        margin: 0;
+    }
+}
+
+@media (min-width:769px) {
+    .register__nombre-apellido--usuario {
+        display: flex;
+
+    }
+
+    .form__control--input {
+
+    }
+
+    .register__fecha-nacimiento--domicilio {
+        display: flex;
+    }
+
+    .contraseñas__box {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .contraseña {
+        padding-bottom: 10px;
+    }
+
+    .Confirmar contraseña {
+        padding: 0px;
+    }
+}
