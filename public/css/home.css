@@ -341,7 +341,7 @@
         padding-top: 3px;
         margin-left: 0;
         position: absolute;
-        right: 110px;
+        right: 80px;
         font-size: 12px;
     }
 
@@ -526,7 +526,6 @@
        }
 }
 
-}
 
 @media (min-width:769px) {
 
@@ -535,23 +534,12 @@
            .home {
             width: 100%;
             margin-left: 16px;
-        } 
-
-        .home__header {
-            padding-left: 25px;
-            padding-right: 25px;
-        }
-           
-           .home__header__img--logo {
-            width: 335%;
-            padding-top: 0px;
-    
         }
     
         input {
             padding-left: 10PX;
-            margin-left: 155px;
-            width: 12rem;
+            
+            width: 11rem;
             height: 40PX;
         }
     
